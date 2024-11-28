@@ -1,0 +1,13 @@
+Git can show version information, like if you save a code on git. it saves various versions of that code. so in future you can revisit 
+the prior code if you want to undo change or revive something.
+
+GIT USING POWERSHELL/COMMAND PROMPT (Command prompt instructions)
+
+Step 0 = IMP (if you ever close the  command line/powershell then you will have to reset the directory because it will be set to home 
+         directory again by default
+Step 1 = Open powershell and the command prompt directory will be set to home directory. so we have to change directory
+Step 2 = " cd C:\Users\patil\Desktop\Git_Tut" we gave the path of the directory that we want our Git application to check folder.
+         here, cd (change directory)
+Step 3 = (optional) "ls" give ls command , which is list files and folders in the *current folder
+Step 4 = Set up git in the folder that we have set our change directory. to do that pass "Git init" in the command line
+         (after this command, Git is now tracking all the files in this folder for changes.
